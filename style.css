@@ -11,10 +11,10 @@
 	line-height:1.4;
  }
 
- img {
+ .my-photo {
   width: 200px;
   height: 250px;
-  margin-left: 175px;
+  margin-left: 125px;
  }
 
 .navigation {
@@ -54,4 +54,35 @@ li a {
 
 footer {
   text-align: center;
+  background-color: #95a5a6;
+}
+
+li p {
+  line-height:0.3;
+}
+
+.rs-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 56px;
+}
+
+.git-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.course-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
